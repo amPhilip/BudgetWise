@@ -1,0 +1,9 @@
+body{
+    background: url('./assets/finance.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Courier New', Arial, Helvetica, sans-serif, monospace;
+
+}
