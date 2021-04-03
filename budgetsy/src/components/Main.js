@@ -41,6 +41,16 @@ export default class Main extends Component{
         //switching the forms
         const form = !this.state.formSwap ? <Login/>: <Register/>;
 
+        if(this.state.user === 1){
+            return(
+                <div className ="mainBlock">
+                    <div className="lds-dual-ring">
+                        
+                    </div>
+                </div>
+            )
+        }
+
         return(
             <>
                 {!this.state.user ? (
